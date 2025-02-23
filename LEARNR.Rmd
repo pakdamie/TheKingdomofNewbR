@@ -11,12 +11,9 @@ runtime: shiny_prerendered
 library(learnr)
 library(reshape2)
 knitr::opts_chunk$set(echo = FALSE)
-
 ```
 
-Ho, esteemed traveler, welcome to the land of NewbR. Even if you do not speak our language, fret not, for we shall teach you the basics. Our fair kingdom is split into different provinces and you shall travel by the main road.
-
-Below is the map of your journey and you will start at the *Steppes of Arithmetic* and help count the wild horses. Next, you will climb the *Mountains of Data-Types* and admire the mountain view. Then the *Bay of Subset* waits for you and you can view our numerous ships carrying the cargo to foreign shores. Traverse through the *Infinite Lake of Loops* and reflect upon your arduous journey so far. The final leg of your journey is through the *Free cities of Data-Wrangling* with each merchant prince tempting you with their fine meals.
+Hail, esteemed traveler! Welcome to the land of NewbR. Even if you do not speak our language, fret not, for we shall teach you the basics. Our fair kingdom is split into different provinces and you shall travel by the main road. Below is the map of your journey! You will start at the *Steppes of Arithmetic* and help count the wild horses. Next, you will climb the *Mountains of Data-Types* and admire the view! Then the *Bay of Subset* awaits for you- watch our numerous ships carrying our goods to foreign shores. Traverse through the *Infinite Lake of Loops* and reflect upon your arduous journey so far. The final leg of your journey is through the *Free Cities of Data-Wrangling* with each merchant prince tempting you with their fine wares.
 
 With this basic grasp of the language, you should be able to explore the other kingdoms that speak the similar language.
 
@@ -28,19 +25,19 @@ Onward traveler. The journey will be arduous but rewarding!
 
 <center>![](images/steppes-01.jpg){width="300" height="400"}</center>
 
-> "The Steppes of Arithmetic is beautiful and a welcome start to an eic journey. The horses are numerous and they must be counted. Their bright sun-like color makes them easy to be counted. Learn the beginning language and realize that all journeys must begin with the simplest steps,"
+> "The Steppes of Arithmetic are beautiful. It's a welcome start to an epic journey. The horses are numerous and they must be counted. Their bright golden color makes them easy to count. Learn the basics of our language and realize that all journeys must start with the simplest steps,"
 >
 > -The Scholar Lienkaemper in *My Small Equines: Friendship is Mathematical*
 
-You finally took your first steps into the Kingdom of NewbR. It is important to remember that R is a language used heavily by the citizens of this continent (esteemed life-scientists!). Learn the language and you can travel to other kingdoms such as the *Kingdom of Statistical Analysis, The Doge of Data-Visualization, and City-Kingdoms of Mathematical Simulation*. But remember, we must make the arduous journey first.
+You finally took your first steps into the Kingdom of NewbR. It is important to remember that R is a language used heavily by the citizens of this continent (esteemed life-scientists, especially!). Learn the language and you can travel to other kingdoms such as the *Kingdom of Statistical Analysis, The Doge of Data-Visualization, and City-Kingdoms of Mathematical Simulation*. But remember, we must make the beginning journey first.
 
-The first province in NewbR is the *Steppes of Arithmetic*. Here, the new travelers are given the simple task of counting the wild horses that graze here. ***Do not think this beneath you traveler, for every other coding kingdoms start out as simply.***
+The first province in NewbR is the *Steppes of Arithmetic*. Here, the new travelers are given the simple task of counting the wild horses that graze here. ***Do not think this beneath you traveler, for every other coding kingdoms start out as simply!***
 
 ### Addition
 
 Traveler, you see 491 herd of horses and 337 herd of horses in the steppes. How many horses are there in total? In the language of R, it is very simple. You must have used a calculator before. It is the same. We use the addition operator . For your first tasks, try writing it down below.
 
-```{r addition, exercise=TRUE, exercise.eval	=FALSE}
+```{r addition, exercise=TRUE, exercise.eval=FALSE}
 
 ```
 
@@ -50,7 +47,7 @@ Traveler, you see 491 herd of horses and 337 herd of horses in the steppes. How 
 
 ### Subtraction
 
-Hmm, it seems we have to move some horses from one herd to another. This herd is getting much too big. Traveler, we must record this. Let us say that in this herd of 453, I am removing 23 to move to another pasture. What is the final size of this remaining herd?
+Hmm, it seems we have to move some horses from one herd to another. This herd is getting too big. Traveler, we must record this. Let us say that in this herd of 453, I am removing 23 to move to another pasture. What is the final size of this remaining herd?
 
 ```{r subtraction, exercise=TRUE}
 
@@ -75,7 +72,7 @@ Hm, two more operators! Again, I will say it is still as simple as using a simpl
 
 ```
 
-Excellent, now let us say that there are 4205 horses and they need to be split apart to 5 herds evenly. How many horses would be in these five herds? (Use division)
+Excellent, now let us say that there are 4205 horses and they need to be split apart to 5 herds evenly. How many horses would be in these five herds? 
 
 ```{r division, exercise=TRUE}
 
@@ -97,17 +94,17 @@ Traveler! I see you are pleased! These simple arithmetic may show up when you le
 
 ### Numerical and Character Data
 
-Ah yes, this is one of the most challenging provinces that new travelers must pass through. Do not worry, it is not as horrible as one imagine. Let us start simple, our task is to understand the different type of mountains for navigating through this province.\
-\
+Ah yes, this is one of the most challenging provinces that new travelers must pass through. Do not worry, it is not as horrible as one imagine. Let us start simple, our task is to understand the different type of mountains for navigating through this province.
+
 So let us imagine that these mountains represent your data. For example, we see a mountain ahead and see that there are numbers on its peaks. This is what we call a *numerical mountain* or more specifically, ***numerical data***. That means that the mountain peaks only have numbers like: 1,2,3, 4.2, 6/9, etc. *For life-scientists, these data can represent the number of moths we find in a trap, the height of a plant during an experiment, the number of eggs in a nest, and so on.*
 
-But traveler do not be fooled, not all mountains have numeric peaks. *Not all data are considered numerical*. Look to the west and see that another mountain have arose and now its peak have alphabets. This is the ***character data*** **a**nd usually involves texts (ex: words and even complete sentences). When would you need a data like that? Well, let's imagine you have data on the species' name, then that species name cannot be expressed by numbers!
+But traveler do not be fooled, not all mountains have numeric peaks. *Not all data are considered numerical*. Look to the west and see that another mountain have arose and now its peak have alphabets. This is the ***character data*** ** and usually involves texts (ex: words and even complete sentences). When would you need a data like that? Well, let's imagine you have data on the species' name, then that species name cannot be expressed by numbers!
 
 There are other mountain peaks (logical, integer, complex, etc.) but let us ignore them for now.
 
 ### Assigning a variable
 
-Quick! Let us test your vocabulary again, traveler. There is a mountain that we need to name. Let us assign it a name and decide what kind of peak (numerical or character) it would have. In the language of R, we want to use this symbol **\<-** as a way to assign a value to a variable. Look upon this code:
+Quick! Let us test your vocabulary again, traveler. There is a mountain that we need to name. Let us assign it a name and decide what kind of peak (numerical or character) it would have. In the language of R, we want to use this symbol **<-** as a way to assign a value to a variable. Look upon this code:
 
 ```{r echo=TRUE}
 mountain1 <- 5.0 
@@ -150,8 +147,8 @@ Wonderful, let us proceed to data-structures.
 
 So traveler, each mountain represents a single data-point. For example, let us say your specimen has a height of 5.3 inches. It would be represented by a numerical mountain with the number 5.3 at its peaks. However, we are always not looking at just a single data point.
 
-\
-Let's say you have multiple measurements. For example, you have different heights for different individuals. That means you have multiple numeric mountains but they are connected like a mountain range. This is a ***vector*** which is the simplest data structure in R with each data entry or **element** being the ame class. So a numerical vector would have all numerical data. A character vector would have all character data and so on.
+
+Let's say you have multiple measurements. For example, you have different heights for different individuals. That means you have multiple numeric mountains but they are connected like a mountain range. This is a ***vector*** which is the simplest data structure in R with each data entry or **element** being the same class. So a numerical vector would have all numerical data. A character vector would have all character data and so on.
 
 We can create a vector by using called **c().** Anytime we want to put elements together than we would do this:
 
